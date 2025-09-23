@@ -1,0 +1,18 @@
+Task 1
+Ask user for their grade
+Determine if user passed, failed, or is on Honor Roll(80+)
+Task 2
+Ask the user for a province or territory in Canada
+determine if input is either province or territory
+also determine if province starts and ends in same letter
+Task 3
+Ask the user for their age.
+Determine which school level they are eligible to be in
+(preschool, grade school, middle school, high school, post-secondary)
+Task 4
+Add functionality to f4.py => generate score for scrabble
+Only accept 3 letter-words => 4+ letters is invalid
+Give 5 points for each vowel + 2 points for each non-vowel
+	=> generate a school for each word
+Each word must have at least 1 vowel
+ 

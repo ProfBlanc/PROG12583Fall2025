@@ -1,0 +1,39 @@
+Task 1
+-Create a set of numbers between 10 and 20
+-Create another set of numbers between 5 and 15
+-Output to screen the difference of the two sets
+-Output to screen the common numbers of the two sets
+-Iterate through each value of sets one and two
+
+Task 2
+Create one list with 3 unique string values
+Create another list with 3 unique integer values
+Create a set that contains the 6 values of the lists create above
+Add any value to the SET created.
+Remove any string value of the set created
+Create a new set that takes any 3 values of the first set (hint: conversion & slicing or iteration & adding)
+Output the values that are not in both sets (a method exists)
+Using 1 for loop, output all the values of both sets
+
+
+Task 3
+Create a dictionary of 3 key-value pairs
+GET the value of one of the keys
+Remove one of the keys
+Output the dictionary using a loop in the format of key = value
+
+
+Task 4
+You are a store owner
+Create a dictionary of your inventory
+    The inventory should have 3 categories
+        Each category should have 2 items
+You need to select a vendor
+Create a dictionary of the vendor's inventory
+    The inventory should have 3 categories
+        Each category should have 2 items
+Output the items that YOU have but the VENDOR does not have
+Output the items that BOTH YOU and the VENDOR have
+Ask the user for an item
+Determine if the item is in STOCK (you have it)
+Determine if vendor carries the item (vendor has it)

@@ -17,3 +17,14 @@
 - output the contacts of both users that share the same birth year. You need to state all contact names, as well as their common birth year value
 - output all the unique favourite colors between the two users
 
+
+d1 = {
+
+    "{name}": "{birth_year}-{colour}",
+    "{name}": [{birth_year},{colour}],
+    "{name}": {
+                    "birth_year": {birth_year},
+                    "fav_colour": {fav_colour}
+    }
+}
+

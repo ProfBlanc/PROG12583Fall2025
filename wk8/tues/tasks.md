@@ -14,6 +14,6 @@
     - birth year
     - favourite colour
 - save the data above to two seperate dictionaries 
-- output the contacts of both users that share the same birth year
+- output the contacts of both users that share the same birth year. You need to state all contact names, as well as their common birth year value
 - output all the unique favourite colors between the two users
 

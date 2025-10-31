@@ -22,7 +22,7 @@ def get_min_people_height(people):
     final_value = ""
 
     ################# Start of Code #################
-    
+    final_value = min(people.values())
     ################# End of Code  ##################
     return final_value
 
@@ -36,7 +36,7 @@ def get_max_people_height(people):
     final_value = ""
 
     ################# Start of Code #################
-    
+    final_value = max(people.values())
     ################# End of Code  ##################
     return final_value
 
@@ -50,7 +50,11 @@ def get_tallest_person(people):
     final_value = ""
 
     ################# Start of Code #################
-    
+    tallest_value = max(people.values())
+    for person, height in people:
+        if height == tallest_value:
+            final_value = person
+            break
     ################# End of Code  ##################
     return final_value
 
@@ -64,6 +68,12 @@ def get_shortest_person(people):
     final_value = ""
 
     ################# Start of Code #################
-    
+    pass
+    a = 100
+    shortest_value = min(people.values())
+    for person, height in people:
+        if height == shortest_value:
+            final_value = person
+            break
     ################# End of Code  ##################
     return final_value

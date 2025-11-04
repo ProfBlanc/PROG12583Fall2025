@@ -1,3 +1,23 @@
 Functions are named entities that store multiple statements
     variables
     processess/calculations
+
+
+add
+    NEED two numbers
+        same data type or compatible
+            limit to int and float
+
+average
+    a list of numbers (could also be set, tuple)
+
+mode: most repeated item
+    if a tie, output all values that are most repeated
+
+    mode([1,2,3,2,1,2,2,2]) => 2
+    mode(['a', 'b', 'c']) => ['a', 'b', 'c']
+    mode([1,2,3,4,5,5, 'a','b','c', 1.1, 1.1, 1.1]) => 1.1
+    mode([1,2,3,4,5,5, 1.1, 1.1]) => [5, 1.1]
+
+sum_odd_number
+

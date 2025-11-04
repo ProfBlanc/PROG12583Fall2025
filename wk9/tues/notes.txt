@@ -1,0 +1,3 @@
+Functions are named entities that store multiple statements
+    variables
+    processess/calculations

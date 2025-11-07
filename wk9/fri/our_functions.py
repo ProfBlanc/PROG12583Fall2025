@@ -34,6 +34,31 @@ def count_all_odd_digits(num):
                 odd_digits_sum += digit_value
         return odd_digits_sum
 
+
+def sentance_details(text):
+    punctuation = [" ", "?", ","]
+    fields = "num_spaces,num_qestion_marks,num_commas,words".split(",")
+    details = dict()
+    details[fields[0]] = 0
+    details[fields[1]] = 0
+    details[fields[2]] = 0
+    details[fields[3]] = list()
+    
+    if isinstance(text, str):
+        for p in range(len(punctuation)):
+            details[fields[p]] = text.count(punctuation[p])
+            
+        details[fields[3]] = text.split(" ")
+        
+        for index in range(len(details[fields[3]])):
+            word = details[fields[3]][index]
+            
+            for p in punctuation:
+                if word.endswith(p):
+                    details[fields[3]][index] = word[:-1]
+    return details
+
+
 order_details = {
     "size": "large",
     "shirt_type": "long-sleeve",

@@ -89,3 +89,16 @@ Return a dictionary that stores: the number of spaces, commas, questionmarks AND
     func("Hi, is my name python?") -> {"num_commas": 1, "num_spaces": 4, "num_questionmarks": 1, "words": ["Hi", "is", "my", "name", "python]}
 
 Outline the steps that you need to write this functions
+
+
+- store punctuations to count in list variable
+- initialize dictionary with keys
+	num_...x 3, words
+- ensure param is string
+- count all punctions in string text
+	store int value in dict key that starts with num_
+- store all words in words key of dict
+	-split text by space
+-iterate all words and determine if word ends in punctuation
+	- if yes, remove punctuation
+- return dictionary 

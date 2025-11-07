@@ -50,3 +50,42 @@ Setup
         - size, color, payment, type, shipping_details,
 Quality Assessments
     - ensure what receive that you expect
+
+
+_____________________________________________________________
+Create a function that adds all odd_digits of a number 
+that is at least 5 digits long
+
+    func(12345)    => 9
+    func(123)   => None b/c does not pass of QA
+    func(24680) => 0 b/c no odd numbers
+    func(11223344) => 8
+
+
+Stepup
+    - one number value (int)
+Quality Check
+    - ensure the number passed is at least 5 digits
+    1: convert number to str
+    2: take the len of the str
+    3: make sure str len (of num) is at least 5
+Process
+    - values
+        - param (dt: int)
+        - converted param value (dt: str)
+    -calculate the sum of odd digits
+        - create a var to store the sum of odd digits
+        - loop the converted param value
+            - reconvert the str value to int value
+            - compared the reconverted int value represent the digit to determine if its value is odd or even
+                - if odd
+                    - add its value to the sum of odd digits
+                - if even
+                    - ignore
+
+I want to write a function that accepts a string text
+Return a dictionary that stores: the number of spaces, commas, questionmarks AND a list of all the words of the text
+
+    func("Hi, is my name python?") -> {"num_commas": 1, "num_spaces": 4, "num_questionmarks": 1, "words": ["Hi", "is", "my", "name", "python]}
+
+Outline the steps that you need to write this functions
